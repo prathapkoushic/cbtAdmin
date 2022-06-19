@@ -1,0 +1,292 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif !important;
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+.adminBlock {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:100px;
+}
+.error{
+	color:red;
+	font-size:10px;
+}
+.createPostBlock{
+	margin-top:80px;
+}
+.btn-group-vertical a {
+	margin: 20px 0;
+}
+ .btn-primary{
+	color: #fff;
+    background-color: #5b845b !important;
+    border-color: #757779 !important ;
+    padding: 8px 20px !important;
+}
+.btn-group-vertical>.btn:first-child:not(:last-child) {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-group-vertical>.btn:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.container {
+	background: #ffffff !important;
+	min-height: 100vh;
+	padding: 0 !important;
+	overflow: hidden;
+	position: relative;
+}
+
+.navbar {
+	margin-bottom: 0px !important; /*mandatiory*/
+}
+
+.container .navbar-default {
+	background: linear-gradient(to bottom, #afaf76 0%, #164e69 100%);
+	border: none;
+	border-radius: 0;
+	min-height:60px;
+	
+}
+
+.container .navbar-default .topNav {
+	width: 92%;
+	margin: auto; /*mandatiory*/
+}
+.container .navbar-default .navbar-header .navbar-brand{
+	padding:0px 0px;
+}
+.container .navbar-default .navbar-header .navbar-brand img {
+	position: absolute;
+	top: 8px;
+	width: 200px;
+}
+
+.container .navbar-default .navbar-header .navbar-brand span h3 {
+	position: relative;
+	left: 412px;
+	width: 300px;
+	bottom: 6px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+.container .navbar-default .navbar-right {
+	margin: 20px; /*mandatiory*/
+}
+
+.container .navbar-default .navbar-right li:last-child a {
+	border-right: none;
+	padding-right: 0px !important; /*mandatiory*/
+}
+
+.container .navbar-default .navbar-right li a, .container .navbar-default .navbar-right li a:hover
+	{
+	color: #fff;
+	font-weight: 600;
+	border-right: 2px solid 2BE69B;
+	padding: 0 20px;
+	font-size: 12px;
+	letter-spacing: 1px; /*mandatiory*/
+	text-transform: uppercase;
+}
+
+.nav-tabs>li>a {
+	padding: 0 !important;
+}
+
+.main-dashboard .ct_formCtrl {
+	width: 300px !important;
+}
+
+.main-dashboard .ct_Width {
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+/*nav tabs end*/
+.container {
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+.sscBlock {
+	padding: 10px;
+}
+
+.container .main-dashboard {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff; /*mandatiory*/
+}
+
+/*ssc info start*/
+label {
+	text-align: center;
+	font-weight: 600 !important; /*mandatiory*/
+}
+
+.mgn-btm label {
+	font-weight: normal !important;
+}
+
+.sscInfo {
+	width: 82%; /*mandatiory*/
+}
+
+.sscBlock .row .form-group {
+	font-size: 16px;
+	margin: 30px 0 -8px 15px; /*mandatiory*/
+}
+
+.sscBlock .row .form-group .enterpostname {
+	font-weight: normal;
+	font-size: 16px; /*mandatiory*/
+}
+
+.sscBlock .row .form-group .description {
+	font-weight: normal;
+	font-size: 16px; /* mandatiory*/
+}
+
+.sscBlock .row .form-group .postqualification {
+	font-weight: normal;
+	font-size: 16px; /* mandatiory*/
+}
+
+.sscBlock .row .form-group .noofvacancies {
+	font-weight: normal;
+	font-size: 16px; /* mandatiory*/
+}
+
+.sscBlock .row .mgn-btm {
+	margin-bottom: 3px; /* mandatiory*/
+}
+
+.sscBlock .row .form-group input {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding-left: 2px; /* mandatiory*/
+}
+
+.sscBlock .row .form-group .provisi {
+	font-size: 30px;
+	letter-spacing: 1px; /* mandatiory*/
+}
+
+.createPost {
+	font-weight: 600 !important;
+	text-align: center !important; /* mandatiory*/
+	margin-bottom:30px;
+}
+
+.mgn-top{
+	margin-top:30px;
+}
+.sscBlock .row .form-group label {
+	text-align: end;
+	/* mandatiory*/
+}
+/* ssc block end*/
+
+/*preview Block stat*/
+.preBtn {
+	padding: 30px;
+}
+
+/*preview block end */
+
+/* footer start*/
+.footer {
+	position: absolute;
+	border-top: 1px solid #d4dae6;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: linear-gradient(to bottom, #afaf76 0%, #164e69 100%);
+	color: #fff;
+}
+
+.footer .row {
+	width: 93%;
+	margin: 0 auto;
+}
+
+.footer .row span {
+	color: #fff;
+	font-size: 15px;
+}
+
+.footer .row .footer-info {
+	padding: 8px;
+}
+/* footer end*/
+#login .container #login-row #login-column #login-box {
+	margin-top: 90px;
+	height: 300px;
+	border: 1px solid #eee;
+	background-color: #fff;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+	padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link
+	{
+	margin-top: -85px;
+}
+
+#login-form h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.text-info {
+	color: #46b8da !important;
+}
+
+.submit {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.table>tbody>tr>td, .table>thead>tr>th {
+	text-align: center;
+}
+
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border-bottom-width: 1px;
+}
+
+.mt25 {
+	margin-top: 25px;
+}
+
+button a, button a:hover, button a:active {
+	color: #fff !important;
+}
